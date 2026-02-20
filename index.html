@@ -1,51 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Sannidhi Shetty | Portfolio</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: radial-gradient(circle at top, #0a0f1f, #000);
-      color: white;
-      text-align: center;
-    }
-    nav {
-      display: flex;
-      justify-content: space-between;
-      padding: 20px 50px;
-      border-bottom: 1px solid #222;
-    }
-    nav ul {
-      display: flex;
-      list-style: none;
-      gap: 25px;
-    }
-    h1 span {
-      background: linear-gradient(90deg, #00eaff, #ff00ff);
-      -webkit-background-clip: text;
-      color: transparent;
-    }
-    .cards {
-      display: flex;
-      justify-content: center;
-      gap: 30px;
-      margin-top: 60px;
-    }
-    .card {
-      width: 260px;
-      padding: 25px;
-      background: linear-gradient(160deg, #10162a, #050816);
-      border-radius: 15px;
-      border: 1px solid #222;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
+<canvas id="bg"></canvas>
+
 <nav>
-  <h1>Sannidhi <span>Shetty</span></h1>
+  <h2>Sannidhi<span>Bh</span></h2>
   <ul>
     <li>Home</li>
     <li>Tech</li>
@@ -54,23 +19,11 @@
   </ul>
 </nav>
 
-<h2>Technological <span>Capabilities</span></h2>
-<p>Creating immersive experiences to solve real-world problems.</p>
+<section class="hero">
+  <h1>WELCOME<br><span>TO MY PORTFOLIO</span></h1>
+  <p>Building immersive analytical  experiences</p>
+</section>
 
-<div class="cards">
-  <div class="card">
-    <h3>Data analytics</h3>
-    <p>Turning raw data into buisness  insights.</p>
-  </div>
-  <div class="card">
-    <h3>AI Integration</h3>
-    <p>Integrating  AI tools to reduce workload.</p>
-  </div>
-  <div class="card">
-    <h3>Networking</h3>
-    <p>Connecting with people to grow.</p>
-  </div>
-</div>
-
+<script src="background.js"></script>
 </body>
 </html>
